@@ -1,0 +1,99 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: 'Quicksand', sans-serif;
+	background: url(../img/back.jpg)no-repeat;
+	background-size: cover;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.one {
+	width: 50%;
+	float: left;
+	margin: 100px 0;
+}
+
+.one h1{
+	text-transform: uppercase;
+    color: #232121;
+    padding: 10px 0;
+    color: white;
+}
+.one p{
+	padding: 10px 0;
+    font-weight: 400;
+    color: white;
+}
+.one h1 span {
+	color: green;
+}
+
+.one ul{
+	list-style: none;
+}
+
+.one ul li{
+	margin: 5px 0;
+	color: white;
+}
+
+.fa.fa-check-circle-o {
+    padding-right: 10px;
+    color: white;
+}
+
+
+
+.two {
+	width: 50%;
+	float: left;
+	margin: 100px 0;
+}
+
+.form-size {
+	width: 65%;
+    margin: 0 auto;
+    padding: 0 10px;
+    text-align: center;
+    background: #3d86e0;
+    border-radius: 10px;
+}
+
+.two h2 {
+	text-transform: uppercase;
+    padding: 10px 0;
+    color: white;
+}
+.two p {
+	font-weight: 500;
+    padding: 10px 5px;
+    color: white;
+}
+
+.form-cont {
+	width: 70%;
+    margin: 10px 10px;
+    padding: 10px 5px;
+}
+
+.btn {
+	margin: 20px 0;
+    padding: 10px 30px;
+    border-bottom: 1px solid #4e68e0;
+    background: blue;
+    color: white;
+    font-size: 20px;
+    transition: .4s ease;
+}
+
+.btn:hover {
+    background: white;
+    color: black;
+}
