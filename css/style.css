@@ -59,6 +59,11 @@ body {
     font-size: 20px;
 }
 
+.but:hover {
+	background: white;
+	color: black;
+}
+
 
 
 .two {
